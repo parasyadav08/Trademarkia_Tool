@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/Background.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    /* Remove the background color */
+    /* Optional: add a slight padding to enhance content visibility */
+    padding: 20px 40px;
+}
+
+.header {
+    background-color: rgba(0, 115, 230, 0.8); /* Optional: semi-transparent header for contrast */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 20px 0;
+}
+
+.tool-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: add transparency for tool sections */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.generate-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.generate-button:hover {
+    background-color: #218838;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
